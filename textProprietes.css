@@ -1,0 +1,42 @@
+.orar{
+font-size: 22px;
+color:white;
+display:block;
+margin-left: 10px;
+font-family: Arial, Roboto;
+margin:5px 0px 5px 0px;
+
+}
+
+.tpa{
+color:rgba(150, 150,150, 0.7);
+font-family: Arial, Roboto;
+font-size: 18px;
+margin-left: 10px;
+}
+
+#siteName
+{
+  color:white;
+  font-size: 50px;
+  font-family: Arial, Roboto;
+  font-weight: 600;
+  display: inline;
+  
+}
+
+.optionsText{
+ color:white;
+ font-size: 30px;
+ font-family: Arial, Roboto;
+ font-weight: 600;
+ text-decoration: none;
+}
+.day 
+{
+color:white;
+font-family: Arial,Roboto;
+margin-bottom: 10px;
+font-size: 26px;
+font-weight: 500;
+}

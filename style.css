@@ -1,0 +1,154 @@
+:root{
+
+--dark-gradient: linear-gradient(-90deg,rgb(6,6,6) , rgb(20,20,22) 40% , rgb(30,30,32) 75% );
+--primary-color:rgb(49,49,49);
+--secondary-color:rgb(50, 58, 61);
+--menu-color: rgb(45,45,45);
+}
+
+html{
+height: 100%;
+}
+
+body
+{
+margin:0px;
+display: flex;
+flex-direction: column;
+background: var(--dark-gradient);
+min-height: 100vh ;
+}
+
+.navbar
+{
+position: fixed;
+background-color: var(--primary-color);
+height: 90px;
+width:100%;
+border-bottom-left-radius:10px ;
+border-bottom-right-radius:10px ;
+padding-top: 25px;
+padding-left:30px ;
+padding-right:20px;
+z-index: 1;
+box-shadow: 0 3px  20px rgba(27, 27, 27, 0.808);
+}
+
+#optionsSection
+{
+display:grid 1fr 1fr;
+position: absolute;
+right: 60px;
+top: 40px;
+}
+
+.options
+{
+display: inline;
+margin-right: 5px;
+
+}
+
+.Icon{
+height: 24px;
+width: 24px;
+display: inline;
+}
+
+.ham-menu{
+display: none;
+}
+
+
+.dropingMenu{
+display: none;
+position: fixed;
+width: 100%;
+height: 170px;
+z-index: 0;
+padding-top:35px;
+padding-bottom: 10px;
+background-color: var(--menu-color) ;
+border-bottom-left-radius:10px ;
+border-bottom-right-radius:10px ;
+top: -100px;
+transition: transform 0.25s linear;
+}
+
+
+
+
+.mainSection
+{  
+padding-top: 140px;
+padding-left: 45px;
+padding-right: 45px;
+padding-bottom: 70px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 15px;
+row-gap:  25px;
+
+
+}
+
+.schedule{
+height: 98%;
+background-color: var(--secondary-color);
+border-radius: 5px;
+padding: 10px 20px 10px 20px;
+min-height: 275px ;
+
+}
+
+@media screen and (max-width:900px) {
+  .mainSection{
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+}
+@media screen and (max-width:650px) {
+  .mainSection{
+    grid-template-columns: 1fr;
+    height: 100%;
+    row-gap: 30px;
+  }
+  #optionsSection{
+    display: none;
+  }
+  
+  .ham-menu{
+    display: inline;
+    position: absolute;
+    right: 70px;
+    top:35px;
+    background-color: var(--primary-color);
+    border: none;
+  }
+ 
+    .dropingMenu{
+      display: grid;
+     grid-template-rows: repeat(5, 1fr);
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+     row-gap: 1px ;
+     
+    }
+
+    .dropingMenu.active{
+    transform: translateY(185px);
+
+    }
+  
+
+}
+
+@media screen and (max-width: 390px) {
+  .mainSection
+  {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
