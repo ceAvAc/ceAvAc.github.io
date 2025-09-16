@@ -19,12 +19,12 @@ let m6ex="De înv. tema";
 let m7ex="-----";
 
 
-let mr1ex="-----";
-let mr2ex="-----";
+let mr1ex="Nimic";
+let mr2ex="nimic";
 let mr3ex="De trans. din prezentare, de înv.";
-let mr4ex="-----";
-let mr5ex="-----";
-let mr6ex="-----";
+let mr4ex="De făcut ex3 din manual după fișa din clasă";
+let mr5ex="Nimic";
+let mr6ex="(chimia) scrieți 5 exeple desubstanțe sau amestecuri care le utilizează acasă";
 let mr7ex="-----";
 
 let j1ex="-----";
@@ -214,3 +214,4 @@ dropingMenu.classList.toggle('active');
 
 
 } )
+
