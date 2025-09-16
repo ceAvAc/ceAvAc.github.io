@@ -21,7 +21,7 @@ let m7ex="-----";
 
 let mr1ex="-----";
 let mr2ex="-----";
-let mr3ex="-----";
+let mr3ex="De trans. din prezentare, de înv.";
 let mr4ex="-----";
 let mr5ex="-----";
 let mr6ex="-----";
@@ -211,5 +211,6 @@ const dropingMenu = document.querySelector(".dropingMenu");
 
 hamMenu.addEventListener( 'click', () => {
 dropingMenu.classList.toggle('active');
+
 
 } )
