@@ -19,20 +19,20 @@ let m6ex="De înv. tema";
 let m7ex="-----";
 
 
-let mr1ex="Nimic";
-let mr2ex="nimic";
+let mr1ex="-----";
+let mr2ex="-----";
 let mr3ex="De trans. din prezentare, de înv.";
 let mr4ex="De făcut ex3 din manual după fișa din clasă";
-let mr5ex="Nimic";
+let mr5ex="-----";
 let mr6ex="(chimia) scrieți 5 exeple desubstanțe sau amestecuri care le utilizează acasă";
 let mr7ex="-----";
 
-let j1ex="-----";
-let j2ex="-----";
+let j1ex="De pregătit";
+let j2ex="ex 1.2.3 p 15 harta de contur";
 let j3ex="-----";
-let j4ex="-----";
+let j4ex="De scris de ce trebuie de redpectat regulile de ortografie";
 let j5ex="-----";
-let j6ex="-----";
+let j6ex="De finistat";
 //let j7ex="";
 
 let v1ex="-----";
@@ -214,4 +214,5 @@ dropingMenu.classList.toggle('active');
 
 
 } )
+
 
