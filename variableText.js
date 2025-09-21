@@ -2,11 +2,11 @@
 // Variabelele-tpa 
 //////////////////////////////////////////////
 
-let l1ex="Discurs 1/2 A4 ''Ce inseamna limba rom. pentru mine''";
-let l2ex="Ex. 18-20 p.13"
+let l1ex="De precătid de evaluare''";
+let l2ex="ex rămase de pe tablă(este în viber)"
 let l3ex="-----";
-let l4ex="Ex.4-7 p.10";
-let l5ex="-----";
+let l4ex="de teminat ex din clasă";
+let l5ex="De transcris din slaid (în vaiber)";
 let l6ex="De inv. verbele-excepții";
 //let l7ex="";
 
@@ -214,6 +214,7 @@ dropingMenu.classList.toggle('active');
 
 
 } )
+
 
 
 
