@@ -12,11 +12,11 @@ let l6ex="De inv. verbele-excepții";
 
 let m1ex="-----";
 let m2ex="-----";
-let m3ex="Ex.5 p. 16, de înv.";
-let m4ex="De clasificat substanțele, de înv.";
-let m5ex="Ex.5 p. 17, de înv. noțiunele din prezentare";
-let m6ex="De înv. tema";
-let m7ex="-----";
+let m3ex="-----";
+let m4ex="din vaiber";
+let m5ex="-----";
+let m6ex="-----";
+let m7ex="poezia";
 
 
 let mr1ex="-----";
@@ -214,6 +214,7 @@ dropingMenu.classList.toggle('active');
 
 
 } )
+
 
 
 
