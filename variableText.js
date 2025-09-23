@@ -21,11 +21,11 @@ let m7ex="poezia";
 
 let mr1ex="-----";
 let mr2ex="-----";
-let mr3ex="De trans. din prezentare, de înv.";
-let mr4ex="De făcut ex3 din manual după fișa din clasă";
+let mr3ex="Mat în lac de Bio ex 17.18 pag 18";
+let mr4ex=" Pezia Scrisarea 3 (Până luni)";
 let mr5ex="-----";
-let mr6ex="(chimia) scrieți 5 exeple desubstanțe sau amestecuri care le utilizează acasă";
-let mr7ex="-----";
+let mr6ex="-----";
+let mr7ex="poeziea ace ce nau spus";
 
 let j1ex="De pregătit";
 let j2ex="ex 1.2.3 p 15 harta de contur";
@@ -214,6 +214,7 @@ dropingMenu.classList.toggle('active');
 
 
 } )
+
 
 
 
