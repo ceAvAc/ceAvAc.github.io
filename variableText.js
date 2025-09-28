@@ -2,12 +2,12 @@
 // Variabelele-tpa 
 //////////////////////////////////////////////
 
-let l1ex="De precătid de evaluare''";
-let l2ex="ex rămase de pe tablă(este în viber)"
+let l1ex="Poezia pe derost scrisoarea 3  ''";
+let l2ex="de terminat ex 22 p 18"
 let l3ex="-----";
-let l4ex="de teminat ex din clasă";
-let l5ex="De transcris din slaid (în vaiber)";
-let l6ex="De inv. verbele-excepții";
+let l4ex="gr 2 ex 9 p 11 ex 7-8 p 14";
+let l5ex="de înv tema ex 6-7 p 6 ";
+let l6ex="(nu știu)";
 //let l7ex="";
 
 let m1ex="-----";
@@ -214,6 +214,7 @@ dropingMenu.classList.toggle('active');
 
 
 } )
+
 
 
 
