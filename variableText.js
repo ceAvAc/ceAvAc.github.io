@@ -10,13 +10,13 @@ let l5ex="de înv tema ex 6-7 p 6 ";
 let l6ex="(nu știu)";
 //let l7ex="";
 
-let m1ex="-----";
-let m2ex="-----";
-let m3ex="-----";
-let m4ex="din vaiber";
-let m5ex="-----";
-let m6ex="-----";
-let m7ex="poezia";
+let m1ex="de preg de fișa";
+let m2ex="de preg de fișă";
+let m3ex="de teminat ex de 1 un pătrat de preg de ev";
+let m4ex="tabel copletat din vaiber";
+let m5ex="poezia cine na spus";
+let m6ex="de învățat tema";
+let m7ex="ex 9 p 15";
 
 
 let mr1ex="-----";
@@ -214,6 +214,7 @@ dropingMenu.classList.toggle('active');
 
 
 } )
+
 
 
 
