@@ -2,12 +2,12 @@
 // Variabelele-tpa 
 //////////////////////////////////////////////
 
-let l1ex="Poezia pe derost scrisoarea 3  ''";
-let l2ex="de terminat ex 22 p 18"
+let l1ex="din vaiber ''";
+let l2ex="ex 30 p 24"
 let l3ex="-----";
-let l4ex="gr 2 ex 9 p 11 ex 7-8 p 14";
-let l5ex="de înv tema ex 6-7 p 6 ";
-let l6ex="(nu știu)";
+let l4ex="-----";
+let l5ex="de înv tema ex 6-7 p 9 ";
+let l6ex="-----";
 //let l7ex="";
 
 let m1ex="de preg de fișa";
@@ -214,6 +214,7 @@ dropingMenu.classList.toggle('active');
 
 
 } )
+
 
 
 
