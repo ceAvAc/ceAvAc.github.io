@@ -12,11 +12,11 @@ let l6ex="-----";
 
 let m1ex="de preg de fișa";
 let m2ex="de preg de fișă";
-let m3ex="de teminat ex de 1 un pătrat de preg de ev";
-let m4ex="tabel copletat din vaiber";
-let m5ex="poezia cine na spus";
-let m6ex="de învățat tema";
-let m7ex="ex 9 p 15";
+let m3ex="-----";
+let m4ex="-----";
+let m5ex="din vaiber";
+let m6ex="de scris decursul pe tema unirea țărilor române și moldovenești";
+let m7ex="-----";
 
 
 let mr1ex="-----";
@@ -214,6 +214,7 @@ dropingMenu.classList.toggle('active');
 
 
 } )
+
 
 
 
